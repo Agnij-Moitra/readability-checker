@@ -3,15 +3,15 @@ This is Readability, a python desktop app that will find the appropriate reeadin
 
 # Getting Started
 1) In your terminal first ensure you are in the correct directory and python and pip are installed.
-2).1 Then run the following to install the requied python modules if you are using MacOS or any distribution of Linux:
+2) Then run the following to install the requied python modules if you are using MacOS or any distribution of Linux:
 ```
 ./requirements.sh
 ```
-2.2) If you are on Windows run:
+3) If you are on Windows run:
 ```
 .\requirements.bat
 ```
-3) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):
+4) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):
 ```
 python main.py
 ```
