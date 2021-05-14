@@ -25,3 +25,6 @@ python main.py
 - Idea for this project from [Wikipedia](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
 - Some code was was used from:
   - [StackOverFlow](https://stackoverflow.com/questions/2349991/how-to-import-other-python-files)
+  - [Pdf Miner Six Documentation](https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html)
+  - [Python Docx Documentation](https://python-docx.readthedocs.io/en/latest/)
+  - [Kite](https://www.kite.com/python/answers/how-to-check-the-type-of-a-file-in-python)
