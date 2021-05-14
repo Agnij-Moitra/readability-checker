@@ -135,7 +135,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "Readability Checker"))
         self.label_2.setText(_translate("MainWindow", "This will use the Coleman–Liau index\n"
                                         "to check the readbility of a particular file.\n"
-                                        "NOTE though It will find the readability\n"
+                                        "NOTE It will find the readability\n"
                                         "of the file on the basis of grammar used\n"
                                         "and NOT the basis of scientific\n"
                                         "difficulty for example.\n"
