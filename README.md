@@ -14,7 +14,7 @@ If you are on Windows run:
 .\requirements.bat
 ```
 
-And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python`):
+And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):
 
 ```
 python main.py
