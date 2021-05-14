@@ -21,4 +21,4 @@ python main.py
 ```
 
 # Acknowledgements:
-- Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on[Unsplash](https://unsplash.com/)
+- Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on [Unsplash](https://unsplash.com/)
