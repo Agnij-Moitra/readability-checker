@@ -23,7 +23,7 @@ python main.py
 # Note:
 - This will find the readability level of a file on the basis of grammar used. And **NOT** on the basis of scientific dificulty for instance.
 - It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
-- - The sample folders contains some sample txt, pdf and docxs files that you might want to use.
+- The sample folders contains some sample txt, pdf and docxs files that you might want to use.
 
 # Acknowledgements:
 - Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on [Unsplash](https://unsplash.com/)
