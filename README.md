@@ -22,10 +22,11 @@ python main.py
 
 # Note:
 - This will find the readability level of a file on the basis of grammar used. And **NOT** on the basis of scientific dificulty for instance.
+- It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
 
 # Acknowledgements:
 - Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on [Unsplash](https://unsplash.com/)
-- Idea for this project from [Wikipedia](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
+- Idea for this project from [Coleman Liau Index on Wikipedia](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
 - Some code was was used from:
   - [StackOverFlow](https://stackoverflow.com/questions/2349991/how-to-import-other-python-files)
   - [PyQt Documentation](https://doc.qt.io/qt.html#qt5)
