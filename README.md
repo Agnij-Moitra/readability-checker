@@ -22,3 +22,6 @@ python main.py
 
 # Acknowledgements:
 - Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on [Unsplash](https://unsplash.com/)
+- Idea for this project from [Wikipedia](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
+- Some code was was used from:
+  - [StackOverFlow](https://stackoverflow.com/questions/2349991/how-to-import-other-python-files)
