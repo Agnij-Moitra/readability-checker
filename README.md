@@ -3,7 +3,7 @@ This is Readability, a python desktop app that will find the appropriate reeadin
 
 # Getting Started
 1) In your terminal first ensure you are in the correct directory and python and pip are installed.
-2.1) Then run the following to install the requied python modules if you are using MacOS or any distribution of Linux:
+2).1 Then run the following to install the requied python modules if you are using MacOS or any distribution of Linux:
 ```
 ./requirements.sh
 ```
