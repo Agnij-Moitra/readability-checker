@@ -20,3 +20,5 @@ And then to run the actual App run in the same terminal (All though you can the 
 python main.py
 ```
 
+# Acknowledgements:
+- Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on[Unsplash](https://unsplash.com/)
