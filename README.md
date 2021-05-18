@@ -11,9 +11,14 @@ This is Readability, a python desktop app that will find the appropriate reeadin
 ```
 .\requirements.bat
 ```
-4) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):
+4) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):\
+**If this doesn't work then run `5`**
 ```
 python main.py
+```
+5) Run this only if `4.` doesn't work:
+```
+python3 main.py
 ```
 
 # Note:
