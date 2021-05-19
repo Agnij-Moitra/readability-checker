@@ -33,6 +33,7 @@ python main.py
 # Acknowledgements:
 - Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on [Unsplash](https://unsplash.com/)
 - This is inspired from [Coleman Liau Index on Wikipedia](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
+- The PDF named [conda-sheet](https://github.com/Agnij-Moitra/readability-checker/blob/main/sample-pdfs/conda-sheet.pdf) is directly from [Anaconda's website](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 - Some code was was used from:
   - [StackOverFlow](https://stackoverflow.com/questions/2349991/how-to-import-other-python-files)
   - [PyQt Documentation](https://doc.qt.io/qt.html#qt5)
