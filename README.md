@@ -12,7 +12,7 @@ This is Readability, a python desktop app that will find the appropriate reeadin
 ```
 ./requirements.sh
 ```
-2) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):\
+2) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):
 ```
 python main.py
 ```
