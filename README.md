@@ -20,7 +20,10 @@ python3 main.py
 ```
 .\requirements.bat
 ```
-2) 
+2) Now to run the app:
+```
+python main.py
+```
 # Note:
 - This will find the readability level of a file on the basis of grammar used. And **NOT** on the basis of scientific dificulty for instance.
 - It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
