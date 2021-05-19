@@ -3,24 +3,24 @@ This is Readability, a python desktop app that will find the appropriate reeadin
 
 # Getting Started
 1) In your terminal first ensure you are in the correct directory, and Python 3 and pip are installed.
-2) Then run the following to install the requied python modules if you are using MacOS or any distribution of Linux:
+## For MacOS and Linux:
 ```
 ./requirements.sh
 ```
-3) If you are on Windows run:
-```
-.\requirements.bat
-```
-4) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):\
-**If this doesn't work then run `5`**
+2) And then to run the actual App run in the same terminal (All though you can the absolute path of python instead of `python` ):\
 ```
 python main.py
 ```
-5) Run this only if `4.` doesn't work:
+If this doesn't work for some reason then run:
 ```
 python3 main.py
 ```
-
+## For Windows:
+1) In your Command Prompt:
+```
+.\requirements.bat
+```
+2) 
 # Note:
 - This will find the readability level of a file on the basis of grammar used. And **NOT** on the basis of scientific dificulty for instance.
 - It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
