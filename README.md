@@ -1,5 +1,10 @@
-# readability-checker
+# Readability-Checker
 This is Readability, a python desktop app that will find the appropriate reeading level of a file eg: 8 grade, 9th grade etc.
+# Note:
+- **This will find the readability level of a file on the basis of grammar used. And NOT on the basis of scientific dificulty for instance.**
+- It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
+- The sample folders contains some sample txt, pdf and docxs files that you might want to use.
+- **If you are on Windows for some reason the texts in the edges won't appear. But it works perfectly fine on other OS(s).**
 
 # Getting Started
 1) In your terminal first ensure you are in the correct directory, and Python 3 and pip are installed.
@@ -24,10 +29,6 @@ python3 main.py
 ```
 python main.py
 ```
-# Note:
-- This will find the readability level of a file on the basis of grammar used. And **NOT** on the basis of scientific dificulty for instance.
-- It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
-- The sample folders contains some sample txt, pdf and docxs files that you might want to use.
 
 # Acknowledgements:
 - Photo by [Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo) on [Unsplash](https://unsplash.com/)
