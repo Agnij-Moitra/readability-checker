@@ -5,7 +5,6 @@ This is Readability, a python desktop app that will find the appropriate reeadin
 - It is using the [Coleman Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
 - The sample folders contains some sample txt, pdf and docxs files that you might want to use.
 - **If you are on Windows for some reason the texts in the edges won't appear. But it works perfectly fine on other OS(s).**
-- `__pycache__` contains cython files to improve performance.
 
 # Getting Started
 1) In your terminal first ensure you are in the correct directory, and Python 3 and pip are installed.
