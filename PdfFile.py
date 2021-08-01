@@ -1,6 +1,10 @@
 import sys
 import importlib.util
 from io import StringIO
+from pdfminer.pdfparser import PDFParser
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfinterp import resolve1
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfdocument import PDFDocument
@@ -9,6 +13,7 @@ from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 from pdfminer.pdftypes import PDFNotImplementedError
 
+numpages = 0
 
 def main(pdf_path):
     # importing readability.py
@@ -25,11 +30,6 @@ def main(pdf_path):
     return readindex
 
 
-'''
-Reference for convert_pdf_to_string : https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html#extract-text-from-a-pdf-using-python-part-2
-'''
-
-
 def convert_pdf_to_string(file_path):
     try:
         output_string = StringIO()
@@ -44,7 +44,12 @@ def convert_pdf_to_string(file_path):
                 for page in PDFPage.create_pages(doc):
                     interpreter.process_page(page)
 
-            return(output_string.getvalue())
+            #     numpages = resolve1(document.catalog['Pages'])['Count']
+
+            # if numpages > 200:
+            #     return "Upgrade to more"
+
+            return (output_string.getvalue())
 
         except FileNotFoundError:
             return "404: Not Found"
@@ -54,9 +59,10 @@ def convert_pdf_to_string(file_path):
 
 
 def load_module(file_name, module_name):
-
     spec = importlib.util.spec_from_file_location(module_name, file_name)
     module = importlib.util.module_from_spec(spec)
     sys.modules[module_name] = module
     spec.loader.exec_module(module)
     return module
+
+
